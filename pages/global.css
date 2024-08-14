@@ -11,3 +11,12 @@ body {
 ::after {
   border-width: 0;
 }
+/* Inside your custom CSS file */
+.text-registered {
+  @apply text-green-600;
+}
+
+.text-unregistered {
+  @apply text-red-600;
+}
+

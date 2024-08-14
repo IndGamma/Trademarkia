@@ -128,7 +128,7 @@ const GroupComponent: NextPage<GroupComponentType> = ({ className = "", data, se
                     className="cursor-pointer [border:none] py-[9.5px] px-[35px] bg-tmo-blue rounded-xl flex flex-row items-start justify-start z-[1] hover:bg-cornflowerblue"
                   >
                     <a className="[text-decoration:none] w-[52px] relative text-base leading-[31px] font-bold font-questrial text-white text-center flex items-center justify-center min-w-[52px]">
-                      Search Now
+                      Search
                     </a>
                   </button>
                 </div>

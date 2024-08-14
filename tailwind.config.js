@@ -1,6 +1,3 @@
-
-
-
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -16,6 +13,7 @@ module.exports = {
           "300": "#1d1c1d",
           "400": "#1a1a1a",
           "500": "rgba(0, 0, 0, 0.1)",
+          "600": "#374151",
         },
         white: "#fff",
         whitesmoke: {
@@ -37,6 +35,8 @@ module.exports = {
           "200": "#d1d1d1",
         },
         "red-1": "#ec3c3c",
+        "red-2": "#f44336",
+        "green-1": "#4caf50",
         goldenrod: "#ecc53c",
         forestgreen: "#52b649",
         aliceblue: {
@@ -49,7 +49,14 @@ module.exports = {
           "200": "#575757",
         },
         mediumseagreen: "#41b65c",
-       
+        green: {
+          "100": "#e6f7e6",
+          "200": "#c0ebc0",
+          "300": "#99de99",
+          "400": "#73d173",
+          "500": "#4dc54d",
+          "600": "#128807",  // Your specific green color
+        },
         chocolate: {
           "100": "#e7760e",
           "200": "#cf5c00",
@@ -93,3 +100,5 @@ module.exports = {
     preflight: false,
   },
 };
+
+

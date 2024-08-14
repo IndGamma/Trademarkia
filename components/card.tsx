@@ -80,7 +80,7 @@ const MarkCard: React.FC<MarkCardProps> = ({ data }) => {
 
   return (
     <Link href={`/details?data=${serializedData}`} className="block no-underline">
-      <div className="grid grid-cols-4 bg-white shadow-md rounded-lg hover:bg-sky-700">
+      <div className="grid grid-cols-4 bg-white shadow-md rounded-lg hover:bg-gray-500">
         {/* Leftmost section: Logo */}
         <div className="flex items-center justify-center col-span-1">
           <div className="w-30 h-30 bg-gray-100 flex items-center justify-center rounded-lg">
